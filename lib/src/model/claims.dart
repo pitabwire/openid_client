@@ -1,6 +1,6 @@
 part of openid.model;
 
-abstract class UserInfo implements JsonObject {
+abstract mixin class UserInfo implements JsonObject {
   /// Identifier for the End-User at the Issuer.
   String get subject => this['sub'];
 

@@ -1,8 +1,6 @@
 include: package:lints/recommended.yaml
 
-linter:
-  rules:
-    - always_declare_return_types
-    - prefer_single_quotes
-    - unawaited_futures
-
+analyzer:
+  exclude:
+    - example/**
+    - '**/example/**'
